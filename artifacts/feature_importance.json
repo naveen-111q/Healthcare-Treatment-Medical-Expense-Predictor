@@ -1,0 +1,10 @@
+{
+    "smoker_yes": 0.68705,
+    "bmi": 0.18254,
+    "age": 0.11926,
+    "children": 0.00816,
+    "region_southwest": 0.00084,
+    "region_southeast": 0.00078,
+    "region_northwest": 0.00074,
+    "sex_male": 0.00063
+}

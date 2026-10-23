@@ -1,0 +1,40 @@
+{
+    "model_name": "RandomForestRegressor",
+    "hyperparameters": {
+        "n_estimators": 250,
+        "max_depth": 5,
+        "min_samples_leaf": 4,
+        "min_samples_split": 6,
+        "max_features": null,
+        "random_state": 42
+    },
+    "test_metrics": {
+        "r2_score": 0.8784,
+        "rmse": 4345.76,
+        "mae": 2491.01
+    },
+    "baseline_metrics": {
+        "r2_score": 0.7836,
+        "rmse": 5796.28,
+        "mae": 4181.19
+    },
+    "comparison": {
+        "mae_reduction_percentage": 40.42,
+        "rmse_reduction_dollars": 1450.53
+    },
+    "cross_validation": {
+        "folds": 5,
+        "mean_r2": 0.846,
+        "std_r2": 0.0403
+    },
+    "features": [
+        "age",
+        "bmi",
+        "children",
+        "sex_male",
+        "smoker_yes",
+        "region_northwest",
+        "region_southeast",
+        "region_southwest"
+    ]
+}
